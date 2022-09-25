@@ -1,12 +1,25 @@
 import React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
-import SmallContact from '../../components/SmallContact/SmallContact';
 
+import SmallContact from '../../components/SmallContact/SmallContact';
+import BlogCard from '../../components/BlogCard/BlogCard'
 const Home = () => {
+    const data = [
+        { a: 3 },
+        { a: 3 },
+        { a: 3 },
+    ]
     return (
         <div>
-            <h2>This is home page</h2>
+
+
+
+            <div className="container">
+                <div className="row">
+
+                    {data.map(d => <BlogCard></BlogCard>)}
+                </div>
+            </div>
+
             <SmallContact></SmallContact>
         </div>
     );
