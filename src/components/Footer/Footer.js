@@ -13,11 +13,11 @@ const Footer = () => {
                     <button className='btn btn-danger ms-3  f-btn'>Facebook</button>
                 </div>
                 <div className="col-md-2 footer-links">
-                    {/* <Link to='/'>Home</Link>
+                    <Link to='/'>Home</Link>
                     <Link to='/blogs'>Blogs</Link>
                     <Link to='/about'>About</Link>
                     <Link to='/videos'>Video</Link>
-                    <Link to='/about'>Contact Me</Link> */}
+                    <Link to='/about'>Contact Me</Link>
                 </div>
                 <div className="col-md-3 footer-img-container">
                     <img src={require('../../images/dada-1.jpg')} alt="" /><img src={require('../../images/dada-2.jpg')} alt="" /><img src={require('../../images/dada-1.jpg')} alt="" /><img src={require('../../images/dada-2.jpg')} alt="" /><img src={require('../../images/dada-1.jpg')} alt="" /><img src={require('../../images/dada-2.jpg')} alt="" />
