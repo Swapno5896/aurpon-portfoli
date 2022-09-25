@@ -1,0 +1,14 @@
+.blog-card img {
+    height: 300px;
+
+}
+
+.blog-card:hover {
+    box-shadow: 10px 10px 50px rgb(223, 223, 221);
+
+}
+
+.blog-button:hover {
+    padding: 9px 18px;
+    transition: all 1s ease-in-out;
+}
