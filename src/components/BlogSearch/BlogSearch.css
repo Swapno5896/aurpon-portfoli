@@ -1,0 +1,40 @@
+.blogSearch-input {
+
+
+    padding: 9px 2%;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    
+}
+
+.serch-options {
+    /* height: 200px; */
+    padding-left: 100px;
+    padding-top: 35px;
+  display: flex;
+  align-items: center;
+
+}
+
+.serch-options button {
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-right: 9px;
+    padding: 0px 29px;
+    opacity: .65;
+    background-color: #e4dfe8;
+    ;
+    border-radius: 20px;
+
+    font-size: 18px;
+}
+.serch-options button span{
+    margin: 5px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50px;
+}
+.blogSearch-container {
+    margin-top: 70px;
+}
