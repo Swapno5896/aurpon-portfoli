@@ -4,6 +4,7 @@ import SmallContact from '../../components/SmallContact/SmallContact';
 import BlogCard from '../../components/BlogCard/BlogCard'
 import SmallVideo from '../../components/SmallVideo/SmallVideo';
 import Couter from '../../components/Couter/Couter';
+import Review from '../../components/Revidw/Review';
 const Home = () => {
     const data = [
         { a: 3 },
@@ -21,6 +22,7 @@ const Home = () => {
             <SmallVideo></SmallVideo>
             <SmallContact></SmallContact>
             <Couter></Couter>
+            <Review></Review>
 
         </div>
     );
