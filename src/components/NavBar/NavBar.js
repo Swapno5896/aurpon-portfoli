@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
-            <div className="container">
+        <nav className="navbar fixed-top navbar-expand-lg   bg-white">
+            <div className="container px-5">
                 <a className="navbar-brand fs-3 fw-bold text-info" href="#">Aurpon</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -12,15 +12,16 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav ms-auto navbar-tag-container">
                         <li className="nav-item">
-                            <Link className="nav-link active my-nav-link" aria-current="page" to='/'>Home</Link>
-
-                            {/* <a className="nav-link active fw-bolder text-success " aria-current="page" href="#">Home</a> */}
+                            <Link id='home' className="nav-link  my-nav-link fw-semibold " aria-current="page" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bolder text-success" aria-current="page" href="#">Blogs</a>
+                            <Link id='blog' className="nav-link  my-nav-link fw-semibold  " aria-current="page" to='/blog'>Blogs</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bolder text-success" aria-current="page" href="#">About</a>
+                            <Link id='video' className="nav-link  my-nav-link fw-semibold " aria-current="page" to='/video'>Videos</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link id='video' className="nav-link  my-nav-link fw-semibold " aria-current="page" to='/about'>About</Link>
                         </li>
                     </ul>
                 </div>

@@ -22,7 +22,7 @@ const Blogs = () => {
         { name: '', id: 6 },
     ]
     return (
-        <div>
+        <div id='blog'>
             <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
             <BlogSearch></BlogSearch>
             <div className="container">

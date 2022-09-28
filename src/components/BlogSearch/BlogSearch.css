@@ -1,18 +1,22 @@
+.input-container {
+    margin: 0 225px;
+}
+
 .blogSearch-input {
 
 
     padding: 9px 2%;
     border-radius: 14px;
     background-color: #f9f9f9;
-    
+
 }
 
 .serch-options {
     /* height: 200px; */
     padding-left: 100px;
     padding-top: 35px;
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -29,12 +33,14 @@
 
     font-size: 18px;
 }
-.serch-options button span{
+
+.serch-options button span {
     margin: 5px;
     padding: 5px;
     background-color: gray;
     border-radius: 50px;
 }
+
 .blogSearch-container {
     margin-top: 70px;
 }
