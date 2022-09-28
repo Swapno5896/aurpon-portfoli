@@ -1,6 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+const ReviewCard = (props) => {
+    const { star } = props.review
 
-const ReviewCard = () => {
     return (
         <div class="col-md-4" data-aos="fade-up">
             <div class="review p-4">
@@ -13,11 +16,13 @@ const ReviewCard = () => {
                 </div>
                 <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
                 <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
+
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+
+
                 </div>
             </div>
         </div>

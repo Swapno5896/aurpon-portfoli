@@ -12,10 +12,10 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav ms-auto navbar-tag-container">
                         <li className="nav-item">
-                            <Link id='home' className="nav-link  my-nav-link fw-semibold " aria-current="page" to='/'>Home</Link>
+                            <Link id='home' className="nav-link bg-white my-nav-link fw-semibold " aria-current="page" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link id='blog' className="nav-link  my-nav-link fw-semibold  " aria-current="page" to='/blog'>Blogs</Link>
+                            <Link id='blog' className="nav-link bg-white  my-nav-link fw-semibold  " aria-current="page" to='/blog'>Blogs</Link>
                         </li>
                         <li className="nav-item">
                             <Link id='video' className="nav-link  my-nav-link fw-semibold " aria-current="page" to='/video'>Videos</Link>

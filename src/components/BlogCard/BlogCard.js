@@ -2,14 +2,12 @@ import React from 'react';
 import './BlogCard.css'
 const BlogCard = () => {
     return (
-        <div className='col-md-4 col-sm-6 '>
-            <div class="card blog-card rounded-4"  >
-                <img src={require('../../images/invictus.png')} class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">How To Get 7 In IELTS</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary blog-button">Read More</a>
-                </div>
+        <div class="col-md-4 gx-4"  >
+            <img style={{ 'height': '300px' }} src={require('../../images/invictus.png')} alt="" />
+            <div class="mt-4">
+                <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
+                <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
             </div>
         </div>
     );

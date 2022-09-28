@@ -22,12 +22,16 @@ const Blogs = () => {
         { name: '', id: 6 },
     ]
     return (
-        <div id='blog'>
+        <div id='blog' className='mt-5 pt-5'>
             <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
             <BlogSearch></BlogSearch>
             <div className="container">
                 <p className='recent-blogs'>Recent Blogs</p>
-                <div className="row">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered<br />
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                </p>
+                <div className="row text-start">
                     {
                         blogs.map(blog => <BlogCard
                             key={blog.id}

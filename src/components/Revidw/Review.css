@@ -2,6 +2,10 @@
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
 }
 
+#reviews {
+    background-color: #5debbb24;
+}
+
 .review .person {
     display: flex;
     align-items: center;
@@ -17,4 +21,5 @@
 
 .review .stars {
     color: orange;
+    padding-left: 3px;
 }

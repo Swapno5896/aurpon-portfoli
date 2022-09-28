@@ -1,6 +1,13 @@
+@media (max-width: 600px) {
+    .small-video-container {
+        min-height: 200vh;
+    }
+}
+
+
 .small-video-container {
     margin: 50px 0;
-    height: 500px;
+    height: 600px;
     background-image: url(../../images/cover_3.jpg);
     display: flex;
     align-items: center;
@@ -35,4 +42,9 @@
     font-size: 50px;
     color: rgb(223, 65, 65);
     transition: all 1s ease-in-out;
+}
+
+.y-video {
+    padding: 10px 0;
+
 }

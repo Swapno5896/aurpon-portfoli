@@ -3,12 +3,12 @@ import ReviewCard from '../ReviewCard/ReviewCard';
 import './Review.css'
 const Review = () => {
     const fakeData = [
-        { id: 1 },
-        { id: 2 },
-        { id: 3 },
-        { id: 4 },
-        { id: 5 },
-        { id: 6 },
+        { id: 1, star: 5 },
+        { id: 2, star: 4 },
+        { id: 3, star: 3 },
+        { id: 4, star: 4 },
+        { id: 5, star: 3 },
+        { id: 6, star: 4 },
     ]
     return (
         <section id="reviews" class="text-center pt-5">
@@ -27,7 +27,7 @@ const Review = () => {
                     {/* review cart */}
 
                     {
-                        fakeData.map(review => <ReviewCard id={review.id}></ReviewCard>)
+                        fakeData.map(review => <ReviewCard id={review.id} review={review}></ReviewCard>)
                     }
                 </div>
             </div>
