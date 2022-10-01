@@ -17,6 +17,7 @@ const Footer = () => {
                     <Link to='/blogs'>Blogs</Link>
                     <Link to='/about'>About</Link>
                     <Link to='/videos'>Video</Link>
+                    <Link to='/teamInvictus'>Team Invictus</Link>
                     <Link to='/about'>Contact Me</Link>
                 </div>
                 <div className="col-md-3 footer-img-container">
