@@ -1,12 +1,15 @@
-
-.most-famous-blog{
+.most-famous-blog {
     padding: 70px;
+    color: rgba(58, 167, 197, 0.693);
+
+
+
 }
 
 .photo-frame {
     width: 472px;
     height: 500px;
- 
+
 
 }
 
@@ -17,11 +20,10 @@
 }
 
 .photo-detail {
-  
+
     width: 419px;
     position: absolute;
 
     height: 550px;
-  
-}
 
+}

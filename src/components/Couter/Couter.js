@@ -17,7 +17,7 @@ const Couter = () => {
                             </span>
 
                             <h1 class="mt-3 mb-2">15</h1>
-                            <p>Awards Won</p>
+                            <p className='fs-3'>Awards Won</p>
                         </div>
                         <div class="col-md-3 icon-container">
                             <span>
@@ -25,7 +25,7 @@ const Couter = () => {
                             </span>
 
                             <h1 class="mt-3 mb-2">12</h1>
-                            <p>Video Uploaded</p>
+                            <p className='fs-3'>Video Uploaded</p>
                         </div>
                         <div class="col-md-3 icon-container">
                             <span>
@@ -33,7 +33,7 @@ const Couter = () => {
                             </span>
 
                             <h1 class="mt-3 mb-2">300</h1>
-                            <p>Happy Students</p>
+                            <p className='fs-3'>Happy Students</p>
                         </div>
                         <div class="col-md-3 icon-container">
                             <span>
@@ -41,7 +41,7 @@ const Couter = () => {
                             </span>
 
                             <h1 class="mt-3 mb-2">3</h1>
-                            <p>Ngo Created</p>
+                            <p className='fs-3'>Ngo Created</p>
                         </div>
                     </div>
                 </div>

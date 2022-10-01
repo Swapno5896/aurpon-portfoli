@@ -1,0 +1,14 @@
+.top_bannera_container {
+    height: 80vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .84;
+
+
+}
+
+.top_bannera_container img {
+    /* width: 100%; */
+}

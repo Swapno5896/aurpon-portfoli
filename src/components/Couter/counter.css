@@ -33,5 +33,10 @@
 }
 
 .icon-container span {
-    font-size: 35px;
+    font-size: 70px;
+}
+
+.icon-container:hover {
+    color: rgb(227, 223, 131);
+    transition: all 1.5s linear;
 }

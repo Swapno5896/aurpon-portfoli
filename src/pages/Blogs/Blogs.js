@@ -4,6 +4,8 @@ import BlogSearch from '../../components/BlogSearch/BlogSearch';
 import BlogCard from '../../components/BlogCard/BlogCard'
 import './blogs.css';
 import SpecialBlog from '../../components/SpecialBlog/SpecialBlog';
+import TopBannerA from '../../components/TopBannerA/TopBannerA';
+import Background from "../../images/blog_topbanner.jpg"
 const Blogs = () => {
     const blogs = [
         { name: '', id: 1 },
@@ -23,6 +25,7 @@ const Blogs = () => {
     ]
     return (
         <div id='blog' className='mt-5 pt-5'>
+            <TopBannerA Background={Background}></TopBannerA>
             <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
             <BlogSearch></BlogSearch>
             <div className="container">

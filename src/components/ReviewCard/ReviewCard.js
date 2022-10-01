@@ -5,8 +5,8 @@ const ReviewCard = (props) => {
     const { star } = props.review
 
     return (
-        <div class="col-md-4" data-aos="fade-up">
-            <div class="review p-4">
+        <div class="col-md-4 " data-aos="fade-up">
+            <div class="review p-4 bg-white">
                 <div class="person">
                     <img src={require("../../images/aurpon-top-banner.jpg")} alt="" />
                     <div class="text ms-3">

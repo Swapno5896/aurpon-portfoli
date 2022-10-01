@@ -3,6 +3,10 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .blog-card:hover {
     box-shadow: 10px 10px 50px rgb(223, 223, 221);
 
