@@ -17,7 +17,7 @@ const Video = () => {
             <TopBannerA Background={Background}></TopBannerA>
             <div className="row">
                 {
-                    videos.map(video => <div className="col-md-4 pt-5 iframe-container">
+                    videos.map(video => <div className="col-md-4 pt-5  iframe-container">
                         <iframe width="400" height="200" src={video.src} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </div>)

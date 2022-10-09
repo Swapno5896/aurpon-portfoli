@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Blogs from './pages/Blogs/Blogs';
 import Video from './pages/Video/Video';
 import TeamInvictus from './pages/TeamInvictus/TeamInvictus';
+import About from './pages/About/About';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="blog" element={<Blogs />} />
         <Route path="video" element={<Video />} />
         <Route path="teamInvictus" element={<TeamInvictus />} />
+        <Route path="about" element={<About />} />
       </Routes>
       <Footer></Footer>
     </div>
