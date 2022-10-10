@@ -24,7 +24,7 @@ const SpecialBlog = (props) => {
          </div> */}
         </div>
         <div className="col-md-6 col-sm-12">
-          <div onClick={() => showDetailBlog(secondBlog.id)} className="card mb-3">
+          <div onClick={() => showDetailBlog(secondBlog.id)} className="card mt-3 mb-5">
             <div className="row g-0">
               <div className="col-md-4">
                 <img src={require('../../images/invictus.png')} className="img-fluid rounded-start" alt="..." />

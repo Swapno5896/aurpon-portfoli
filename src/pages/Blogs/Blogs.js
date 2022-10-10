@@ -29,12 +29,12 @@ const Blogs = () => {
             <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
             <BlogSearch></BlogSearch>
             <div className="container">
-                <p className='recent-blogs'>Recent Blogs</p>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered<br />
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                <p className='recent-blog-text pt-5'>Recent Blogs</p>
+                <p className='recent-blog-detail'>There are many variations of passages of Lorem <br />Ipsum available, but the majority have
+                    suffered
+                    alteration in some form,<br /> by injected humour, or randomised words which don't look even slightlydon't look even slightly
                 </p>
-                <div className="row text-start">
+                <div className="row text-start pt-5">
                     {
                         blogs.map(blog => <BlogCard
                             key={blog.id}

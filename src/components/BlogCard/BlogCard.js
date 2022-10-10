@@ -2,7 +2,7 @@ import React from 'react';
 import './BlogCard.css'
 const BlogCard = () => {
     return (
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
             <div class="p-3 bg-white shadow rounded"  >
                 <img style={{ 'height': '300px' }} src={require('../../images/invictus.png')} alt="" />
                 <div class="mt-4 ">
