@@ -30,21 +30,21 @@ const TeamInvictus = () => {
                 <div className="row">
                     <div className="col-md-6 teamInvictus-top-text d-flex justify-content-center align-items-center">
                         <div>
-                            <h1 className='pb-3'>Team Invictus</h1>
+                            <h1 className='pb-2 fw-bold text-primary'>Team Invictus</h1>
                             <hr />
-                            <p className=''>BYACA is composed of youths from different backgrounds who have gathered together on a single motto of serving the people. We have identified cancer as one of the leading threats to our society which can dismantle many lives and families
+                            <p className='fs-5'>BYACA is composed of youths from different backgrounds who have gathered together on a single motto of serving the people. We have identified cancer as one of the leading threats to our society which can dismantle many lives and families
                                 <br /> <br /> the rate of increase is not very optimistic.
 
                                 Each of the dedicated souls has an immense contribution to the rise of this organization. You can check their credentials below.</p>
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img src={require('../../images/content_creation.png')} alt="" />
+                        <img className='pt-4' src={require('../../images/content_creation.png')} alt="" />
                     </div>
                 </div>
                 {/* speciality section */}
-                <div className="row mt-5">
-                    <h1 className='pb-5'>SPECIALITY OF team Invictus</h1>
+                <div className="row mt-5 pt-5">
+                    <h1 className='pb-5'>Specialty OF team Invictus</h1>
                     {
                         spacialitis.map(spaciality => <BlogCard spaciality={spaciality}></BlogCard>)
                     }

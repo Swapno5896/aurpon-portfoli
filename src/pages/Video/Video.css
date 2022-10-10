@@ -2,3 +2,15 @@
     width: 400px;
     height: 300px;
 } */
+
+.recent-blog-text {
+    font-weight: 500;
+    font-size: 60px;
+    color: #585e5e;
+
+}
+
+.recent-blog-detail {
+    font-size: 22px;
+    line-height: 40px;
+}
