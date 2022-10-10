@@ -1,3 +1,14 @@
 .about-topbanner-img-contaienr img {
     border-radius: 100px;
 }
+
+.icon-container {
+    padding-bottom: 20px;
+}
+
+.icons {
+    font-size: 15px;
+    font-weight: 500;
+    display: inline;
+    padding-left: 10px;
+}
