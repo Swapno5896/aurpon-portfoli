@@ -72,12 +72,7 @@ const AboutTopBanner = () => {
                 </div>
             </div>
 
-            <hr />
-            {/* memories */}
-            <div className="row py-5 my-5">
-                <h1 className="text-center">memories</h1>
-                <p>hear will be some image in grid</p>
-            </div>
+
 
             <hr />
             {/* youtube jouney */}
