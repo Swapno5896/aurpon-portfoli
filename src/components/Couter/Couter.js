@@ -11,7 +11,7 @@ const Couter = () => {
 
                 <div class="container text-white text-center">
                     <div class="row gy-4" data-aos="fade-up">
-                        <div class="col-md-3 icon-container">
+                        <div class="col-md-3  icon-container">
                             <span>
                                 <FontAwesomeIcon icon={faTrophy} />
                             </span>

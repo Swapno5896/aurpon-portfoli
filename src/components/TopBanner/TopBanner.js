@@ -4,7 +4,7 @@ const TopBanner = () => {
     return (
         <div className='container pb-5 mb-5'>
             <div className="row">
-                <div className="col-md-6 text-start d-flex justify-content-center align-items-center">
+                <div className="col-md-6 col-sm-12 text-start d-flex justify-content-center align-items-center">
                     <div>
                         <h1>Hello I'm
                             <br />

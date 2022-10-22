@@ -22,9 +22,10 @@ const Home = () => {
                     {data.map(d => <BlogCard></BlogCard>)}
                 </div>
             </div>
-            <SmallVideo></SmallVideo>
             <SmallContact></SmallContact>
             <Couter></Couter>
+            <SmallVideo></SmallVideo>
+
             <Review></Review>
             <ContactMessage></ContactMessage>
 

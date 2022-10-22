@@ -10,7 +10,7 @@ const SmallVideo = () => {
                 <div class="container text-white text-center">
                     <div class="row">
                         <div class="col-12 section-intro text-center" data-aos="fade-up">
-                            <h1 className='video-title pb-3'>Watch My video</h1>
+                            <h1 className='video-title pb-3 pt-5'>Watch My video</h1>
                             <div class="divider"></div>
                             <p className='pb-2'>There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered<br />
@@ -20,9 +20,9 @@ const SmallVideo = () => {
 
                         </div>
                         <div className="row video-footer ">
-                            <div className="col-md-4  y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div className="col-md-4 y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div className="col-md-4 y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div className="col-md-4 col-sm-12  y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div className="col-md-4 col-sm-12 y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div className="col-md-4 col-sm-12 y-video"><iframe width="360" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         </div>
 
                     </div>

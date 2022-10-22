@@ -72,8 +72,6 @@ const AboutTopBanner = () => {
                 </div>
             </div>
 
-
-
             <hr />
             {/* youtube jouney */}
             <div className="row py-5 my-5">

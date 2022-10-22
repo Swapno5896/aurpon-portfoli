@@ -7,7 +7,7 @@
 
 .small-video-container {
     margin: 50px 0;
-    height: 600px;
+    min-height: 100vh;
     background-image: url(../../images/cover_3.jpg);
     display: flex;
     align-items: center;
@@ -45,6 +45,6 @@
 }
 
 .y-video {
-    padding: 10px 0;
+    padding: 15px 0;
 
 }
