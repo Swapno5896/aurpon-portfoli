@@ -14,6 +14,7 @@ const SpecialBlog = (props) => {
     <div className="container">
       <h2 className='most-famous-blog'>Most Famous Blogs</h2>
       <div className="row text-start d-flex justify-content-center">
+        {/* first blog */}
         <div onClick={() => showDetailBlog(firstBlog.id)} className="col-md-6 col-sm-12 photo-frame">
           <div className='photo'>
             <img src={require('../../images/invictus.png')} alt="" />
@@ -23,9 +24,12 @@ const SpecialBlog = (props) => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam eligendi sapiente quam expedita alias obcaecati velit eveniet nostrum eos cum eaque repellendus tempore nisi atque quis vitae, est id.</p>
          </div> */}
         </div>
+
+        {/* next two blog */}
         <div className="col-md-6 col-sm-12">
-          <div onClick={() => showDetailBlog(secondBlog.id)} className="card mt-3 mb-5">
-            <div className="row g-0">
+          {/* top blog */}
+          <div onClick={() => showDetailBlog(secondBlog.id)} className="card mt-3 mb-5 shadow rounded">
+            <div className="row g-0 shadow rounded">
               <div className="col-md-4">
                 <img src={require('../../images/invictus.png')} className="img-fluid rounded-start" alt="..." />
               </div>
@@ -38,7 +42,8 @@ const SpecialBlog = (props) => {
               </div>
             </div>
           </div>
-          <div onClick={() => showDetailBlog(ThirdBlog.id)} className="card mb-3">
+          {/* blow blog */}
+          <div onClick={() => showDetailBlog(ThirdBlog.id)} className="card mb-3 shadow rounded">
             <div className="row g-0">
               <div className="col-md-4">
                 <img src={require('../../images/invictus.png')} className="img-fluid rounded-start" alt="..." />

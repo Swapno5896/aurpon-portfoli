@@ -8,13 +8,16 @@ import Blogs from './pages/Blogs/Blogs';
 import Video from './pages/Video/Video';
 import TeamInvictus from './pages/TeamInvictus/TeamInvictus';
 import About from './pages/About/About';
+import BlogPage from './pages/Blogs/BlogPage';
+import DetailBlog from './components/DetailBlog/DetailBlog';
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="blog" element={<Blogs />} />
+        <Route path="blog" element={<BlogPage />} />
+        <Route path="blog/:id" element={<DetailBlog />} />
         <Route path="video" element={<Video />} />
         <Route path="teamInvictus" element={<TeamInvictus />} />
         <Route path="about" element={<About />} />

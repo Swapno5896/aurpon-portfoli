@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css'
 import SmallContact from '../../components/SmallContact/SmallContact';
 import BlogCard from '../../components/BlogCard/BlogCard'
@@ -7,19 +7,22 @@ import Couter from '../../components/Couter/Couter';
 import Review from '../../components/Revidw/Review';
 import ContactMessage from '../../components/ContactMessage/ContactMessage';
 import TopBanner from '../../components/TopBanner/TopBanner';
+import { useState } from 'react';
+import blogdata from '../../Data/blog.JSON'
 const Home = () => {
-    const data = [
-        { a: 3 },
-        { a: 3 },
-        { a: 3 },
-    ]
+    const [blogs, setBlogs] = useState([])
+    useEffect(() => {
+        fetch(blogdata)
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
     return (
         <div id='home'>
             <div className="container  mt-5 pt-5">
                 <TopBanner></TopBanner>
                 <div className="row text-start">
 
-                    {data.map(d => <BlogCard></BlogCard>)}
+                    {blogs?.map(blog => <BlogCard blog={blog}></BlogCard>)}
                 </div>
             </div>
             <SmallContact></SmallContact>

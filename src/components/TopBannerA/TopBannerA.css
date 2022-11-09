@@ -1,11 +1,17 @@
 .top_bannera_container {
-    height: 80vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: .84;
 
 
+}
+
+@media (max-width: 600px) {
+    .top_bannera_container {
+        height: 40vh;
+    }
 }
 
 .top_bannera_container img {

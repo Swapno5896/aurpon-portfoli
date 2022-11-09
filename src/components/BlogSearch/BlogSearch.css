@@ -1,6 +1,4 @@
-.input-container {
-    margin: 0 225px;
-}
+.input-container {}
 
 .blogSearch-input {
 
@@ -17,6 +15,7 @@
     padding-top: 35px;
     display: flex;
     align-items: center;
+    width: 100%;
 
 }
 
