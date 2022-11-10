@@ -6,4 +6,13 @@
     background-color: #5498e0;
 }
 
-.contact-detail {}
+.contact-detail h2 {
+    color: #f3f4f6;
+    line-height: 1.6;
+}
+
+.contact-detail p {
+    color: #f3f4f6;
+    font-size: 18px;
+    line-height: 1.8;
+}

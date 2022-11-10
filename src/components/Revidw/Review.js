@@ -15,10 +15,8 @@ const Review = () => {
             <div class="container pb-5 mb-5" >
                 <div class="row">
                     <div class="col-12 section-intro text-center">
-                        <h1 className='pb-4'>Our Testimonials</h1>
-                        <div class="divider"></div>
-                        <p className='pb-3 lh-lg'>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered<br />
+                        <h1 className='pb-4 review-title'>Our Testimonials</h1>
+                        <p className='pb-3  review-detail'>There are many variations of passages of Lorem Ipsum available, but the <br />
                             alteration in some form, by injected humour, or randomised words which don't look even slightly
                         </p>
                     </div>

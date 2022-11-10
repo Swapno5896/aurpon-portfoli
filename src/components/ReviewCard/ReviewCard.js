@@ -9,17 +9,19 @@ const ReviewCard = (props) => {
                 <div class="person ">
                     <img src={require("../../images/aurpon-top-banner.jpg")} alt="" />
                     <div class="text ms-3">
-                        <h6 class="mb-2">Swapno Mondol</h6>
-                        <small>Google</small>
+                        <h6 class="mb-2 fs-5">Swapno Mondol</h6>
+                        <small className=' ps-2 fs-6'>Google</small>
                     </div>
                 </div>
-                <p class="pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                <p class="pt-2 lh-3 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
                 <div class="stars">
 
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
+
+                    <FontAwesomeIcon className='ps-2' icon={faStar} />
+
+                    <FontAwesomeIcon className='ps-2' icon={faStar} />
+                    <FontAwesomeIcon className='ps-2' icon={faStar} />
+                    <FontAwesomeIcon className='ps-2' icon={faStar} />
 
 
                 </div>

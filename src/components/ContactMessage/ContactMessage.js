@@ -21,8 +21,7 @@ const ContactMessage = () => {
                     <div class="col-12 section-intro text-center" data-aos="fade-up">
                         <h1 className='pt-5 pb-3'>Get in touch</h1>
                         <div class="divider"></div>
-                        <p className='pb-2'>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered<br />
+                        <p className='pb-3 lh-4 fs-5'>There are many variations of passages of Lorem Ipsum available, but the <br />
                             alteration in some form, by injected humour, or randomised words which don't look even slightly
                         </p>
                     </div>

@@ -1,3 +1,9 @@
+.card-container {
+    color: rgb(99, 126, 127);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
 .blog-card img {
     height: 300px;
 

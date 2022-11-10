@@ -31,10 +31,8 @@ const Home = () => {
             <SmallContact></SmallContact>
             <Couter></Couter>
             <SmallVideo></SmallVideo>
-
             <Review></Review>
             <ContactMessage></ContactMessage>
-
         </div>
     );
 };

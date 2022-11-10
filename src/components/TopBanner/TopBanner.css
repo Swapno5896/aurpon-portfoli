@@ -10,8 +10,11 @@
 }
 
 .topbanner-detal {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgb(70, 82, 82);
+
 }
 
 .topbanner-image-container img {

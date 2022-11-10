@@ -6,6 +6,7 @@
     background-color: #5debbb24;
 }
 
+
 .review .person {
     display: flex;
     align-items: center;
@@ -17,6 +18,16 @@
     width: 75px;
     height: 75px;
     border-radius: 100px;
+}
+
+.review-title {
+    color: rgb(39, 95, 147);
+}
+
+.review-detail {
+    line-height: 1.9;
+    font-size: 20px;
+    color: rgb(8, 24, 79);
 }
 
 .review .stars {
