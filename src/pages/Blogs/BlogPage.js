@@ -1,21 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import BlogCard from '../../components/BlogCard/BlogCard';
 import BlogSearch from '../../components/BlogSearch/BlogSearch';
 import SpecialBlog from '../../components/SpecialBlog/SpecialBlog';
 import TopBannerA from '../../components/TopBannerA/TopBannerA';
 
+// importing json blog arraty locally
+import blogdata from '../../Data/blog.JSON'
 
 // importing image
 import Background from "../../images/blog_topbanner.jpg"
 const BlogPage = () => {
-    const blogs = [
-        { name: '', id: 1 },
-        { name: '', id: 2 },
-        { name: '', id: 3 },
-        { name: '', id: 4 },
-        { name: '', id: 5 },
-        { name: '', id: 6 },
-    ]
+    const [blogs, setBlogs] = useState([])
+    useEffect(() => {
+        fetch(blogdata)
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
+    // const blogs = [
+    //     { name: '', id: 1 },
+    //     { name: '', id: 2 },
+    //     { name: '', id: 3 },
+    //     { name: '', id: 4 },
+    //     { name: '', id: 5 },
+    //     { name: '', id: 6 },
+    // ]
     const specialBlog = [
         { title: 'blog title', id: 1 },
         { title: 'blog title', id: 2 },
@@ -42,9 +50,8 @@ const BlogPage = () => {
                 </p>
                 <div className="row text-start pt-5">
                     {
-                        blogs.map(blog => <BlogCard
+                        blogs?.map(blog => <BlogCard
                             key={blog.id}
-
                             blog={blog}
                         ></BlogCard>)
                     }

@@ -22,7 +22,10 @@ const Home = () => {
                 <TopBanner></TopBanner>
                 <div className="row text-start">
 
-                    {blogs?.map(blog => <BlogCard blog={blog}></BlogCard>)}
+                    {blogs?.map(blog => <BlogCard
+                        key={blog.id}
+                        blog={blog}
+                    ></BlogCard>)}
                 </div>
             </div>
             <SmallContact></SmallContact>
