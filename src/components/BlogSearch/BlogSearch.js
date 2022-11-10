@@ -4,43 +4,34 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 const BlogSearch = () => {
+    const btns = [
+        { text: 'All', count: 3 },
+        { text: 'IELTS', count: 1 },
+        { text: 'SAT', count: 1 },
+        { text: 'University', count: 0 },
+        { text: 'Visa', count: 0 },
+        { text: 'Pasport', count: 1 },
+    ]
     return (
-        <div className='container blogSearch-container'>
-            {/* <div
-                class="form-floating input-container w-60">
-                <textarea class="form-control blogSearch-input" placeholder="Leave a comment here" id="floatingTextarea">
-                    <button>sdflsdk</button>
-                </textarea>
-                <label for="floatingTextarea">  <FontAwesomeIcon icon={faMagnifyingGlass} /></label>
+        <div className='container blogSearch-container pt-5 mt-3'>
 
-            </div> */}
-            {/* <div className="serch-options">
-                <button>All <span>10</span></button>
-                <button>IELTS<span>3</span></button>
-                <button>SAT<span>3</span></button>
-                <button>University<span>2</span></button>
-                <button>Visa<span>1</span></button>
-                <button>Pasport<span>0</span></button>
-            </div> */}
-            <form>
+
+            {/* <form>
                 <div class="form-row">
-                    <div class="col-7 text-center">
+                    <div class="col-7 ">
                         <input type="text" class="form-control" placeholder="City" />
                     </div>
                 </div>
-            </form>
+            </form> */}
+            <div class="form-floating mx-auto w-75 pb-4">
+                <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Type To Search</label>
+            </div>
             <div>
-                <button className='py-2 px-3 rounded-4 m-3'>All <span>10</span></button>
-                <button className='py-2 px-3 rounded-4 m-3'>IELTS<span>3</span></button>
-                <button className='py-2 px-3 rounded-4 m-3'>SAT<span>3</span></button>
-                <button className='py-2 px-3 rounded-4 m-3'>University<span>2</span></button>
-                <button className='py-2 px-3 rounded-4 m-3'>Visa<span>1</span></button>
-                <button className='py-2 px-3 rounded-4 m-3'>Pasport<span>0</span></button>
-                {/* <button className='p-3 rounded-4 m-3'>All <span>10</span> </button>
-                <button className='p-3 rounded-4 m-3'>All </button>
-                <button className='p-3 rounded-4 m-3'>All </button>
-                <button className='p-3 rounded-4 m-3'>All </button>
-                <button className='p-3 rounded-4 m-3'>All </button> */}
+                {
+                    btns?.map(btn => <button className='py-2 px-3 rounded-4 m-3 btn-outline-primary btn'>{btn.text} <span className='badge text-bg-warning'>{btn.count}</span></button>
+                    )
+                }
             </div>
         </div>
     );

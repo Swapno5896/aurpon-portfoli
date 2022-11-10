@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import blogdata from '../../Data/blog.JSON'
+import './DetailBlog.css'
 const DetailBlog = () => {
     const react_param = useParams()
     const blog_id = react_param.id
@@ -18,7 +19,7 @@ const DetailBlog = () => {
         <div className='py-5 my-5'>
             <h3>{blog.title}</h3>
             <img className='w-50' src={blog.img_url} alt="" />
-            <p className='px-5 my-5'>{blog.full_discription}</p>
+            <p className='px-5 my-5 detail-blog_discription'>{blog.full_discription}</p>
         </div>
     );
 };

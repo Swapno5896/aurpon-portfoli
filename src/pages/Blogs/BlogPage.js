@@ -25,9 +25,9 @@ const BlogPage = () => {
     //     { name: '', id: 6 },
     // ]
     const specialBlog = [
-        { title: 'blog title', id: 1 },
-        { title: 'blog title', id: 2 },
-        { title: 'blog title', id: 3 },
+        { id: 1, post_date: '25 Nov', title: 'This is title', small_discription: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', img_url: 'https://i.ibb.co/F6cywtr/download.jpg' },
+        { id: 2, post_date: '25 Nov', title: 'This is title', small_discription: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', img_url: 'https://i.ibb.co/F6cywtr/download.jpg' },
+        { id: 3, post_date: '25 Nov', title: 'This is title', small_discription: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', img_url: 'https://i.ibb.co/F6cywtr/download.jpg' },
         { name: '', id: 4 },
         { name: '', id: 5 },
         { name: '', id: 6 },
@@ -36,11 +36,15 @@ const BlogPage = () => {
         <div className='pt-5 my-5'>
             {/* top image */}
             <TopBannerA Background={Background}></TopBannerA>
+
             {/* top 3 liked blogs */}
-            <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
-            <p>text</p>
-            <BlogSearch></BlogSearch>
-            <p>text</p>
+            <SpecialBlog
+                specialBlog={specialBlog}
+            ></SpecialBlog>
+
+            <BlogSearch>
+            </BlogSearch>
+
             {/* all our blogs */}
             <div className="container">
                 <p className='recent-blog-text pt-5'>Recent Blogs</p>
