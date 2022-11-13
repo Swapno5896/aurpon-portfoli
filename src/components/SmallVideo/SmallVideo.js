@@ -15,7 +15,6 @@ const SmallVideo = () => {
                                 alteration in some form, by injected humour, or randomised words which don't look even slightly
                             </p>
                             {/* <a href="#" class="video-btn"><FontAwesomeIcon icon={faPlay} /></a> */}
-
                         </div>
                         <div className="row video-footer ">
                             <div className="col-md-4 col-sm-12  y-video"><iframe width="350" height="250" src="https://www.youtube.com/embed/IkydEhax-A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

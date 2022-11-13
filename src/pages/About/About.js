@@ -3,16 +3,44 @@ import AboutTopBanner from '../../components/AboutTopBanner/AboutTopBanner';
 import Memories from '../../components/Memoris/Memories';
 
 const About = () => {
+    const aurponAbout = [
+        {
+            Titlle: 'Aurpon Chowdhury',
+            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
+            description: '',
+            youtubeLink: '',
+            facebookLink: ''
+        },
+        {
+            Titlle: 'BYRC',
+            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
+            description: '',
+            siteLink: '',
+            facebookGroupLink: ''
+        }
+        , {
+            Titlle: 'Team Incactus',
+            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
+            description: '',
+            activatyLink: '',
+            facebookLink: ''
+        }
+    ]
     const memories = [
-        { id: 1 },
-        { id: 2 },
-        { id: 3 },
-        { id: 4 },
-        { id: 5 },
-        { id: 6 },
+        { id: 1, imgUlr: '', text: '' },
+        { id: 2, imgUlr: '', text: '' },
+        { id: 3, imgUlr: '', text: '' },
+        { id: 4, imgUlr: '', text: '' },
+        { id: 5, imgUlr: '', text: '' },
+        { id: 6, imgUlr: '', text: '' },
+
+
+
+
+
     ]
     return (
-        <div>
+        <div style={{ "backgroundColor": '#dffbf6' }}>
             <AboutTopBanner></AboutTopBanner>
             <hr />
             <div className='container py-5'>
