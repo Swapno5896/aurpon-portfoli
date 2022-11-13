@@ -16,14 +16,7 @@ const BlogPage = () => {
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, [])
-    // const blogs = [
-    //     { name: '', id: 1 },
-    //     { name: '', id: 2 },
-    //     { name: '', id: 3 },
-    //     { name: '', id: 4 },
-    //     { name: '', id: 5 },
-    //     { name: '', id: 6 },
-    // ]
+
     const specialBlog = [
         { id: 1, post_date: '25 Nov', title: 'This is title', small_discription: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', img_url: 'https://i.ibb.co/F6cywtr/download.jpg' },
         { id: 2, post_date: '25 Nov', title: 'This is title', small_discription: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.', img_url: 'https://i.ibb.co/F6cywtr/download.jpg' },
