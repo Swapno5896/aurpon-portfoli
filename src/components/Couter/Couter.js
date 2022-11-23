@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './counter.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy, faVideoCamera, faPeopleGroup, faBuildingNgo } from '@fortawesome/free-solid-svg-icons'
-const Couter = () => {
+const Couter = (props) => {
+    const [counterData, SetCounterData] = useState({})
+    useEffect(() => {
+        fetch('http://localhost:5000/home/6377a5a22f2d042aac9dfc2b')
+            .then(res => res.json())
+            .then(data => SetCounterData(data))
+    }, [])
+    const { title, sub_title, detail, img_url } = counterData
+    const data = counterData.data
+    const award_won = data[0]
+    const video_uploaded = data[1]
+    const happy_student = data[2]
+    const ngo = data[3]
     return (
         <div className='d-flex justify-content-center'>
 
@@ -16,9 +28,12 @@ const Couter = () => {
                                 <FontAwesomeIcon icon={faTrophy} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">15</h1>
-                            <p className='fs-3'>Awards Won</p>
+                            <h1 class="mt-3 mb-2">{award_won.count}</h1>
+                            <p className='fs-3'>{award_won.title}</p>
                         </div>
+
+
+
                         <div class="col-md-3 icon-container">
                             <span>
                                 <FontAwesomeIcon icon={faVideoCamera} />
@@ -32,16 +47,16 @@ const Couter = () => {
                                 <FontAwesomeIcon icon={faPeopleGroup} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">300</h1>
-                            <p className='fs-3'>Happy Students</p>
+                            <h1 class="mt-3 mb-2">{happy_student.count}</h1>
+                            <p className='fs-3'>{happy_student.title}</p>
                         </div>
                         <div class="col-md-3 icon-container">
                             <span>
                                 <FontAwesomeIcon icon={faBuildingNgo} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">3</h1>
-                            <p className='fs-3'>Ngo Created</p>
+                            <h1 class="mt-3 mb-2">{ngo.count}</h1>
+                            <p className='fs-3'>{ngo.title}</p>
                         </div>
                     </div>
                 </div>

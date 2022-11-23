@@ -11,9 +11,9 @@ const AboutTopBanner = () => {
                 <div className=" offset-md-1 col-md-4 about-topbanner-img-contaienr">
                     <img src={require('../../images/dada-2.jpg')} alt="" />
                 </div>
-                <div className="ps-4 col-md-7 text-start d-flex justify-content-center align-items-center">
+                <div className=" col-md-7 text-start d-flex justify-content-center align-items-center">
                     <div>
-                        <h2 className='pb-3 fw-bold'>Aurpon Chowdhury</h2>
+                        <h2 className='about_title_padding pb-3 fw-bold'>Aurpon Chowdhury</h2>
                         <div className='icon-container'>
                             <p className='icons pt-2'>   <FontAwesomeIcon icon={faCheckDouble} /> Student Of Alberta</p>
                             <p className='icons'>   <FontAwesomeIcon icon={faCheckDouble} /> Ceo Of Big Business</p>
@@ -33,7 +33,7 @@ const AboutTopBanner = () => {
             <div className="row py-5 my-5">
                 <div className="offset-md-1 col-md-7 text-start d-flex justify-content-center align-items-center">
                     <div>
-                        <h2 className='pb-3 fw-bold'>BYRC</h2>
+                        <h2 className='about_title_padding  pb-3 fw-bold'>BYRC</h2>
                         <div className='icon-container'>
                             <p className='icons pt-2'>   <FontAwesomeIcon icon={faCheckDouble} /> Canceer Awarness Ngo</p>
                             <p className='icons'>   <FontAwesomeIcon icon={faCheckDouble} /> Helps people to understand better</p>
@@ -58,7 +58,7 @@ const AboutTopBanner = () => {
                 </div>
                 <div className="ps-4 col-md-8 text-start d-flex justify-content-center align-items-center">
                     <div>
-                        <h2 className='pb-3 text-bolder'>Team Invactus</h2>
+                        <h2 className='about_title_padding pb-3 text-bolder'>Team Invactus</h2>
                         <div className='icon-container'>
                             <p className='icons pt-2'>   <FontAwesomeIcon icon={faCheckDouble} /> Student Of Alberta</p>
                             <p className='icons'>   <FontAwesomeIcon icon={faCheckDouble} /> Ceo Of Big Business</p>

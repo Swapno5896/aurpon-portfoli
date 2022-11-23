@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactMessage.css'
-const ContactMessage = () => {
+const ContactMessage = (props) => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -13,16 +13,22 @@ const ContactMessage = () => {
                 console.log(error.text);
             });
     };
+    const data = props.sendMsgData
     return (
         <section id="contact" class="bg-cover text-white message-contact-container pb-5" >
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 section-intro text-center" data-aos="fade-up">
-                        <h1 className='pt-5 pb-3'>Get in touch</h1>
+                        <h1 className='pt-5 pb-3'>
+                            {data.title}
+                            {/* Get in touch */}
+                        </h1>
                         <div class="divider"></div>
-                        <p className='pb-3 lh-4 fs-5'>There are many variations of passages of Lorem Ipsum available, but the <br />
-                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        <p className='pb-3 lh-4 fs-5'>
+                        {data.sub_title1}    {/* There are many variations of passages of Lorem Ipsum available, but the  */}
+                            <br />
+                         {data.sub_title2}   {/* alteration in some form, by injected humour, or randomised words which don't look even slightly */}
                         </p>
                     </div>
                 </div>

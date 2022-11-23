@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './BlogCard.css'
 const BlogCard = (props) => {
     const { id, post_date, title, small_discription, img_url } = props.blog
+
     return (
         <Link to={`/blog/${id}`} class="col-md-4 mb-5 card-container" >
             {/* <div class="col-md-4 mb-5"> */}

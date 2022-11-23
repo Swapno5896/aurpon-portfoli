@@ -23,8 +23,9 @@ const TeamInvictus = () => {
         { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
 
     ]
+
     return (
-        <div>
+        <div >
             <TopBannerA Background={Background}></TopBannerA>
             <div className="container mt-5 py-5 ">
                 {/* topbanner image */}
@@ -55,7 +56,7 @@ const TeamInvictus = () => {
                     <h1 className='mt-5 pt-5'>Team Member Of Team Invictus</h1>
                     <p className='pt-3 pb-5 fs-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat <br /> dignissimos magnam in provident porro laboriosam quasi debitis fuga architecto voluptates.
                     </p>
-                    <div className="row g-5 px-5">
+                    <div className="row g-5 px-2">
                         {
                             invictusMember.map(member => <ReviewCard member={member}></ReviewCard>)
                         }

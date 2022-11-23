@@ -10,6 +10,7 @@ import TeamInvictus from './pages/TeamInvictus/TeamInvictus';
 import About from './pages/About/About';
 import BlogPage from './pages/Blogs/BlogPage';
 import DetailBlog from './components/DetailBlog/DetailBlog';
+import Admin from './pages/Admin/Admin';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="video" element={<Video />} />
         <Route path="teamInvictus" element={<TeamInvictus />} />
         <Route path="about" element={<About />} />
+        <Route path="admin" element={<Admin />} />
       </Routes>
       <Footer></Footer>
     </div>

@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Welcome! I am Aurpon Chowdhury",
+        "sub_title": "Content Creator, Travelling lover",
+        "detail": "Highly proficient in the use of Microsoft Office, successfully completed a specialization course from New Horizons, USA.4 years of leadership and volunteering experience for 3 nonprofit organizations with a special attachment to community service and humanitarian activities.",
+        "img_url": ""
+    },
+    {
+        "title": "Content Creation To Help Others",
+        "detail": "University Admissions, Career guidance and a touch of vlogging- I love to help my massive following in every way possible.",
+        "youtube_link": "",
+        "facebook_link": "",
+        "img_link": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "inside_content": "counter",
+        "data": [
+            {
+                "title": "Awards Won",
+                "count": 15,
+                "icon": "faTrophy"
+            },
+            {
+                "title": "Video Uploaded",
+                "count": 12,
+                "icon": "faVideoCamera"
+            },
+            {
+                "title": "Happy Stduents",
+                "count": 3,
+                "icon": "faPeopleGroup"
+            },
+            {
+                "title": "Ngo",
+                "count": 3,
+                "icon": "faBuildingNgo"
+            }
+        ]
+    },
+    {
+        "inside_content": "Video",
+        "title": "Watch My video",
+        "sub_title1": "There are many variations of passages of Lorem Ipsum available, but the ",
+        "sub_title2": "alteration in some form, by injected humour, or randomised words which don't look even slightly",
+        "data": [
+            {
+                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
+            },
+            {
+                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
+            },
+            {
+                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
+            }
+        ]
+    },
+    {
+        "inside_content": "review",
+        "title": "Our Testimonials",
+        "subtitle": "There are many variations of passages of Lorem Ipsum available, but the alteration in some form, by injected humour, or randomised words which don't look even slightly",
+        "data": [
+            {
+                "img_url": "",
+                "sub_title": "",
+                "review_msg": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected",
+                "review_start": 4
+            }
+        ]
+    },
+    {
+        "inside_content": "Send message",
+        "title": "Get in touch ",
+        "sub_title1": "There are many variations of passages of Lorem Ipsum available, ",
+        "sub_title2": "but the alteration in some form, by injected humour, or randomised words which don't look even slightly"
+    }
+]
