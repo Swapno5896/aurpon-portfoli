@@ -42,15 +42,14 @@ const Home = () => {
             {/* <Couter ></Couter> */}
 
 
-            <SmallVideo ></SmallVideo>
+            {/* <SmallVideo ></SmallVideo> */}
 
             {/* 
 6377a5a22f2d042aac9dfc2d
 */}
 
-            {
-                // reviewData ? <Review reviewData={reviewData}></Review> : ''
-            }
+            <Review ></Review>
+
             {/* 
 6377a5a22f2d042aac9dfc2e
 */}
