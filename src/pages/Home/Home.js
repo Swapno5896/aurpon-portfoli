@@ -39,16 +39,11 @@ const Home = () => {
             {/* 
 
 */}
-            <Couter ></Couter>
+            {/* <Couter ></Couter> */}
 
 
-            {/* 
-6377a5a22f2d042aac9dfc2c
-*/}
+            <SmallVideo ></SmallVideo>
 
-            {
-                // videoData ? <SmallVideo videoData={videoData}></SmallVideo> : ''
-            }
             {/* 
 6377a5a22f2d042aac9dfc2d
 */}
