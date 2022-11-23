@@ -9,7 +9,7 @@ const TopBanner = () => {
             .then(data => SetTopbannerData(data))
     }, [])
     const { title, sub_title, detail, img_url } = topbannerData
-    console.log(topbannerData);
+    //console.log(topbannerData);
     return (
         <div className='container pb-5 mb-5'>
 

@@ -2,19 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './counter.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy, faVideoCamera, faPeopleGroup, faBuildingNgo } from '@fortawesome/free-solid-svg-icons'
-const Couter = (props) => {
+const Couter = () => {
     const [counterData, SetCounterData] = useState({})
     useEffect(() => {
         fetch('http://localhost:5000/home/6377a5a22f2d042aac9dfc2b')
             .then(res => res.json())
-            .then(data => SetCounterData(data))
+            .then(data => SetCounterData(data.data))
     }, [])
-    const { title, sub_title, detail, img_url } = counterData
-    const data = counterData.data
-    const award_won = data[0]
-    const video_uploaded = data[1]
-    const happy_student = data[2]
-    const ngo = data[3]
+
     return (
         <div className='d-flex justify-content-center'>
 
@@ -28,8 +23,8 @@ const Couter = (props) => {
                                 <FontAwesomeIcon icon={faTrophy} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">{award_won.count}</h1>
-                            <p className='fs-3'>{award_won.title}</p>
+                            <h1 class="mt-3 mb-2">{counterData[0].count}</h1>
+                            <p className='fs-3'>{counterData[0].title}</p>
                         </div>
 
 
@@ -47,16 +42,16 @@ const Couter = (props) => {
                                 <FontAwesomeIcon icon={faPeopleGroup} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">{happy_student.count}</h1>
-                            <p className='fs-3'>{happy_student.title}</p>
+                            <h1 class="mt-3 mb-2">{counterData[2].count}</h1>
+                            <p className='fs-3'>{counterData[2].title}</p>
                         </div>
                         <div class="col-md-3 icon-container">
                             <span>
                                 <FontAwesomeIcon icon={faBuildingNgo} />
                             </span>
 
-                            <h1 class="mt-3 mb-2">{ngo.count}</h1>
-                            <p className='fs-3'>{ngo.title}</p>
+                            <h1 class="mt-3 mb-2">{counterData[3].count}</h1>
+                            <p className='fs-3'>{counterData[3].title}</p>
                         </div>
                     </div>
                 </div>

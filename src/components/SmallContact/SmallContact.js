@@ -9,7 +9,7 @@ const SmallContact = (props) => {
     }, [])
 
     const { title, detail, youtube_link, facebook_link, img_link } = contactData
-    console.log(contactData);
+    //console.log(contactData);
     return (
         <div className='container mt-5 mb-5 p-3 cotact-container'>
             <div className="row">

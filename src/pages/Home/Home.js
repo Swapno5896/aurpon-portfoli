@@ -10,25 +10,15 @@ import TopBanner from '../../components/TopBanner/TopBanner';
 import { useState } from 'react';
 const Home = () => {
     const [blogs, setBlogs] = useState([])
-    const [homeData, sethomeData] = useState([])
+
     useEffect(() => {
         fetch('blog.JSON')
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, [])
-    useEffect(() => {
-        fetch('http://localhost:5000/home')
-            .then(res => res.json())
-            .then(data => sethomeData(data))
-    }, [])
-    console.log(homeData);
 
-    const topbannerData = homeData[0]
-    const contentData = homeData[1]
-    const counterData = homeData[2]
-    const videoData = homeData[3]
-    const reviewData = homeData[4]
-    const sendMsgData = homeData[5]
+
+
     return (
         <div id='home'>
             <div className="container  mt-5 pt-5">
@@ -64,14 +54,14 @@ const Home = () => {
 */}
 
             {
-                reviewData ? <Review reviewData={reviewData}></Review> : ''
+                // reviewData ? <Review reviewData={reviewData}></Review> : ''
             }
             {/* 
 6377a5a22f2d042aac9dfc2e
 */}
 
             {
-                sendMsgData ? <ContactMessage sendMsgData={sendMsgData}></ContactMessage> : ''
+                //  sendMsgData ? <ContactMessage sendMsgData={sendMsgData}></ContactMessage> : ''
             }
 
             {/* <SmallVideo></SmallVideo>
