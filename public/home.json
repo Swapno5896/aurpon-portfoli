@@ -49,17 +49,9 @@
         "title": "Watch My video",
         "sub_title1": "There are many variations of passages of Lorem Ipsum available, but the ",
         "sub_title2": "alteration in some form, by injected humour, or randomised words which don't look even slightly",
-        "data": [
-            {
-                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
-            },
-            {
-                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
-            },
-            {
-                "youtube_link": "https://www.youtube.com/embed/IkydEhax-A4"
-            }
-        ]
+        "youtube_link_1": "https://www.youtube.com/embed/IkydEhax-A4",
+        "youtube_link_2": "https://www.youtube.com/embed/IkydEhax-A4",
+        "youtube_link_3": "https://www.youtube.com/embed/IkydEhax-A4"
     },
     {
         "inside_content": "review",

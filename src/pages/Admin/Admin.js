@@ -1,6 +1,8 @@
+
 import React from 'react';
 import AdminCounter from './AdminCounter/AdminCounter';
 import AdminTopBannar from './AdminTopBannar/AdminTopBannar';
+import AdminVideo from './AdminVideo/AdminVideo';
 
 const Admin = () => {
     return (
@@ -9,7 +11,10 @@ const Admin = () => {
             {/* <AdminTopBannar></AdminTopBannar> */}
 
             {/* counter */}
-            <AdminCounter></AdminCounter>
+            {/* <AdminCounter></AdminCounter> */}
+
+            {/* video */}
+            <AdminVideo></AdminVideo>
         </div>
     );
 };
