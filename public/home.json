@@ -78,5 +78,20 @@
         "sub_title": "Google",
         "review_msg": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected",
         "review_star": "4"
+    },
+    {
+        "title": "Aurpon Chowdhury",
+        "sub_title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet quisquam rem. Nulla eaque soluta voluptate, maiores, quia magni totam numquam, explicabo",
+        "youtube_link": "",
+        "facebook_link": "",
+        "img_1": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "img_2": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "img_3": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "img_4": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "img_5": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "img_6": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "location_main": "Momtaz Plaza (3rd Floor) House #07, Road #04,",
+        "location_secondary": "Dhanmondi, Dhaka",
+        "contact": "aurpon@gamil.com"
     }
 ]
