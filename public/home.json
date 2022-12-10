@@ -71,5 +71,12 @@
         "title": "Get in touch ",
         "sub_title1": "There are many variations of passages of Lorem Ipsum available, ",
         "sub_title2": "but the alteration in some form, by injected humour, or randomised words which don't look even slightly"
+    },
+    {
+        "user_img_url": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "name": "Aurpon Chowdhury",
+        "sub_title": "Google",
+        "review_msg": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected",
+        "review_star": "4"
     }
 ]

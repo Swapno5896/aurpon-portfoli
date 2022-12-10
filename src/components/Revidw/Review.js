@@ -2,22 +2,21 @@ import React, { useEffect, useState } from 'react';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import './Review.css'
 const Review = () => {
-    const [reviewData, SetReviewData] = useState({})
+    const [topTextData, SetTopTextData] = useState({})
+    const [review, setReview] = useState({})
     useEffect(() => {
         fetch('http://localhost:5000/home/6377a5a22f2d042aac9dfc2d')
             .then(res => res.json())
-            .then(data => SetReviewData(data))
+            .then(data => SetTopTextData(data))
     }, [])
+    useEffect(() => {
+        fetch('http://localhost:5000/review')
+            .then(res => res.json())
+            .then(data => setReview(data))
+    }, [])
+    // console.log(review);
+    const { title, subtitle } = topTextData
 
-    const { title, subtitle } = reviewData
-    const fakeData = [
-        { id: 1, star: 5 },
-        { id: 2, star: 4 },
-        { id: 3, star: 3 },
-        { id: 4, star: 4 },
-        { id: 5, star: 3 },
-        { id: 6, star: 4 },
-    ]
     return (
         <section id="reviews" class="text-center pt-5">
             <div class="container pb-5 mb-5" >
@@ -35,7 +34,8 @@ const Review = () => {
                     {/* review cart */}
 
                     {
-                        fakeData.map(review => <ReviewCard id={review.id} review={review}></ReviewCard>)
+                        review.length > 1 ? review?.map(review => <ReviewCard id={review.id} review={review}></ReviewCard>)
+                            : ''
                     }
                 </div>
             </div>

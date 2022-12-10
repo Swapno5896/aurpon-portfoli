@@ -1,6 +1,9 @@
 
 import React from 'react';
+import AdminAddReview from './AdminAddReview/AdminAddReview';
+import AdminContactMessage from './AdminContactMessage/AdminContactMessage';
 import AdminCounter from './AdminCounter/AdminCounter';
+import AdminDeletReview from './AdminDeletReview/AdminDeletReview';
 import AdminTopBannar from './AdminTopBannar/AdminTopBannar';
 import AdminVideo from './AdminVideo/AdminVideo';
 
@@ -14,7 +17,10 @@ const Admin = () => {
             {/* <AdminCounter></AdminCounter> */}
 
             {/* video */}
-            <AdminVideo></AdminVideo>
+            {/* <AdminVideo></AdminVideo> */}
+            {/* <AdminAddReview />
+            <AdminDeletReview></AdminDeletReview> */}
+            <AdminContactMessage></AdminContactMessage>
         </div>
     );
 };

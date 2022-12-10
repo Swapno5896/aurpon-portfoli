@@ -1,7 +1,17 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+
 import emailjs from '@emailjs/browser';
 import './ContactMessage.css'
 const ContactMessage = (props) => {
+    const [contactMessageData, setContactMessageData] = useState({})
+    const { title, sub_title1, sub_title2 } = contactMessageData
+    //  load data
+    useEffect(() => {
+        fetch('http://localhost:5000/home/6377a5a22f2d042aac9dfc2e')
+            .then(res => res.json())
+            .then(data => setContactMessageData(data))
+    }, [])
+
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -9,6 +19,7 @@ const ContactMessage = (props) => {
         emailjs.sendForm('service_v91l7il', 'template_d4x8x3d', form.current, 'Mz4Oihtupq2A9YV30')
             .then((result) => {
                 console.log(result.text);
+                alert('Message Send. Thank You')
             }, (error) => {
                 console.log(error.text);
             });
@@ -21,14 +32,14 @@ const ContactMessage = (props) => {
                 <div class="row">
                     <div class="col-12 section-intro text-center" data-aos="fade-up">
                         <h1 className='pt-5 pb-3'>
-                            {data.title}
+                            {title}
                             {/* Get in touch */}
                         </h1>
                         <div class="divider"></div>
                         <p className='pb-3 lh-4 fs-5'>
-                        {data.sub_title1}    {/* There are many variations of passages of Lorem Ipsum available, but the  */}
+                            {sub_title1}    {/* There are many variations of passages of Lorem Ipsum available, but the  */}
                             <br />
-                         {data.sub_title2}   {/* alteration in some form, by injected humour, or randomised words which don't look even slightly */}
+                            {sub_title2}   {/* alteration in some form, by injected humour, or randomised words which don't look even slightly */}
                         </p>
                     </div>
                 </div>

@@ -36,30 +36,21 @@ const Home = () => {
             </div>
             <SmallContact></SmallContact>
             <Couter ></Couter>
-
+<SmallVideo ></SmallVideo> 
              */}
 
             {/* done */}
 
-            {/* <SmallVideo ></SmallVideo> */}
-
-            {/* 
-6377a5a22f2d042aac9dfc2d
-*/}
 
             <Review ></Review>
 
-            {/* 
-6377a5a22f2d042aac9dfc2e
-*/}
 
             {
                 //  sendMsgData ? <ContactMessage sendMsgData={sendMsgData}></ContactMessage> : ''
             }
 
-            {/* <SmallVideo></SmallVideo>
-            <Review></Review>
-            <ContactMessage></ContactMessage> */}
+
+            <ContactMessage></ContactMessage>
         </div>
     );
 };
