@@ -21,9 +21,8 @@ const Home = () => {
 
     return (
         <div id='home'>
-            <div className="container  mt-5 pt-5">
-                <TopBanner ></TopBanner> : ''
-
+            {/* <div className="container  mt-5 pt-5">
+                <TopBanner ></TopBanner>
                 <div className="row text-start">
 
                     {blogs ?
@@ -35,12 +34,12 @@ const Home = () => {
 
                 </div>
             </div>
-            <SmallContact></SmallContact> : ''
-            {/* 
+            <SmallContact></SmallContact>
+            <Couter ></Couter>
 
-*/}
-            {/* <Couter ></Couter> */}
+             */}
 
+            {/* done */}
 
             {/* <SmallVideo ></SmallVideo> */}
 

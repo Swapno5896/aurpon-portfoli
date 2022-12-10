@@ -13,22 +13,29 @@
         "img_link": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
     },
     {
+        "award_title": "Awards Won",
+        "award_count": 15,
+        "video_title": "Video Uploaded",
+        "video_count": 12,
+        "student_title": "Happy Stduents",
+        "student_count": 3,
+        "ngo_title": "Ngo",
+        "ngo_count": 3
+    },
+    {
         "inside_content": "counter",
         "data": [
             {
                 "title": "Awards Won",
-                "count": 15,
-                "icon": "faTrophy"
+                "count": 15
             },
             {
                 "title": "Video Uploaded",
-                "count": 12,
-                "icon": "faVideoCamera"
+                "count": 12
             },
             {
                 "title": "Happy Stduents",
-                "count": 3,
-                "icon": "faPeopleGroup"
+                "count": 3
             },
             {
                 "title": "Ngo",
