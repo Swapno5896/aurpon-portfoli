@@ -42,7 +42,7 @@ const Home = () => {
             {/* done */}
 
 
-            <Review ></Review>
+            {/* <Review ></Review> */}
 
 
             {

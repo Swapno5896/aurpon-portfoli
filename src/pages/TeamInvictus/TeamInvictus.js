@@ -11,16 +11,13 @@ const TeamInvictus = () => {
         { id: 1, post_date: '23 dec', title: 'title ', small_discription: 'this is description', img_url: 'img_url' },
 
     ]
+
     const invictusMember = [
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
-        { name: 'swapno mondol', position: 'Web Developer', fb_link: '', linkdin_link: "" },
+        { user_img_url: 'https://i.ibb.co/5RpjPjj/dada-2.jpg', name: "Swapno Mondol", sub_title: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, quisquam.", review_msg: '', review_star: "", },
+        { user_img_url: 'https://i.ibb.co/5RpjPjj/dada-2.jpg', name: "Swapno Mondol", sub_title: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, quisquam.", review_msg: '', review_star: "", },
+        { user_img_url: 'https://i.ibb.co/5RpjPjj/dada-2.jpg', name: "Swapno Mondol", sub_title: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, quisquam.", review_msg: '', review_star: "", },
+
+
 
     ]
 
@@ -58,7 +55,7 @@ const TeamInvictus = () => {
                     </p>
                     <div className="row g-5 px-2">
                         {
-                            invictusMember.map(member => <ReviewCard member={member}></ReviewCard>)
+                            invictusMember.map(member => <ReviewCard review={member}></ReviewCard>)
                         }
                     </div>
                 </div>

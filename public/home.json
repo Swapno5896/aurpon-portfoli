@@ -93,5 +93,63 @@
         "location_main": "Momtaz Plaza (3rd Floor) House #07, Road #04,",
         "location_secondary": "Dhanmondi, Dhaka",
         "contact": "aurpon@gamil.com"
+    },
+    {
+        "title": "Aurpon Chowdhury",
+        "img_url": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "point_1": "Student Of Alberta",
+        "point_2": "Ceo Of Big Business",
+        "point_3": " Founder Of Byrac",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium debitis nesciunt laborum dolorem aperiam omnis cumque doloribus quam est enim reprehenderit, quod maiores voluptatem animi quia amet. Illo, eum?",
+        "youtube_link": "",
+        "facebook_link": ""
+    },
+    {
+        "title": "Team Invactus",
+        "img_url": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "point_1": "Canceer Awarness Ngo",
+        "point_2": " Helps people to understand better",
+        "point_3": " Founder Of Byrac",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium debitis nesciunt laborum dolorem aperiam omnis cumque doloribus quam est enim reprehenderit, quod maiores voluptatem animi quia amet. Illo, eum?",
+        "activity_link": "",
+        "facebook_profile_link": ""
+    },
+    {
+        "title": "Aurpon Chowdhury",
+        "img_url": "https://i.ibb.co/5RpjPjj/dada-2.jpg",
+        "point_1": "Canceer Awarness Ngo",
+        "point_2": " Helps people to understand better",
+        "point_3": " Founder Of Byrac",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium debitis nesciunt laborum dolorem aperiam omnis cumque doloribus quam est enim reprehenderit, quod maiores voluptatem animi quia amet. Illo, eum?",
+        "byrc_site_link": "",
+        "facebook_group_link": ""
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "memories_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates",
+        "img_ulr": "https://i.ibb.co/5RpjPjj/dada-2.jpg"
+    },
+    {
+        "video_url": "",
+        "post_date": ""
     }
 ]

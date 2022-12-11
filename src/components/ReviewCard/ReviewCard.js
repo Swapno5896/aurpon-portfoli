@@ -3,11 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 const ReviewCard = (props) => {
     const review = props.review
-    let n = parseInt(review.review_star)
     let stars = []
-    for (let i = 0; i < n; ++i) {
-        stars.push(<FontAwesomeIcon className='ps-2' icon={faStar} />)
+
+    if (parseInt(review.review_star)) {
+        let n = parseInt(review.review_star)
+
+        for (let i = 0; i < n; ++i) {
+            stars.push(<FontAwesomeIcon className='ps-2' icon={faStar} />)
+        }
     }
+
     const handelDelet = (id) => {
         console.log(id);
         props.setDeletId(id)
