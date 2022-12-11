@@ -7,6 +7,7 @@ import AdminDeletReview from './AdminDeletReview/AdminDeletReview';
 import AdminFooter from './AdminFooter/AdminFooter';
 import AdminTopBannar from './AdminTopBannar/AdminTopBannar';
 import AdminVideo from './AdminVideo/AdminVideo';
+import AdminVideoPage from './AdminVideoPage/AdminVideoPage';
 
 const Admin = () => {
     return (
@@ -21,8 +22,9 @@ const Admin = () => {
             {/* <AdminVideo></AdminVideo> */}
             {/* <AdminAddReview />
             <AdminDeletReview></AdminDeletReview> */}
-            <AdminContactMessage></AdminContactMessage>
-            <AdminFooter></AdminFooter>
+            {/* <AdminContactMessage></AdminContactMessage> */}
+            {/* <AdminFooter></AdminFooter> */}
+            <AdminVideoPage></AdminVideoPage>
         </div>
     );
 };

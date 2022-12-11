@@ -9,16 +9,6 @@ const Video = () => {
             .then(res => res.json())
             .then(data => setVideoData(data))
     }, [])
-
-    // const videos = [
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    //     { src: "https://www.youtube.com/embed/IkydEhax-A4" },
-    // ]
-
     return (
         <div className='container py-5 my-5' style={{ 'backgroundColor': '#fff9f9' }}>
             <TopBannerA Background={Background}></TopBannerA>
