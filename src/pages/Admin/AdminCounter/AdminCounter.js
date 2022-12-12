@@ -11,7 +11,6 @@ const AdminCounter = () => {
             .then(res => res.json())
             .then(data => setCounterData(data))
     }, [])
-    console.log(counterData);
 
     const handelSubmit = event => {
         event.preventDefault()

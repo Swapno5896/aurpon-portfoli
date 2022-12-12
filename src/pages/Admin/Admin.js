@@ -1,5 +1,6 @@
 
 import React from 'react';
+import AdminAboutAurpon from './AdminAboutAurpon/AdminAboutAurpon';
 import AdminAddReview from './AdminAddReview/AdminAddReview';
 import AdminContactMessage from './AdminContactMessage/AdminContactMessage';
 import AdminCounter from './AdminCounter/AdminCounter';
@@ -24,7 +25,9 @@ const Admin = () => {
             <AdminDeletReview></AdminDeletReview> */}
             {/* <AdminContactMessage></AdminContactMessage> */}
             {/* <AdminFooter></AdminFooter> */}
-            <AdminVideoPage></AdminVideoPage>
+            {/* <AdminVideoPage></AdminVideoPage>
+             */}
+            <AdminAboutAurpon></AdminAboutAurpon>
         </div>
     );
 };

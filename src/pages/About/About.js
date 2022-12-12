@@ -1,31 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import AboutTopBanner from '../../components/AboutTopBanner/AboutTopBanner';
 import Memories from '../../components/Memoris/Memories';
 
 const About = () => {
-    const aurponAbout = [
-        {
-            Titlle: 'Aurpon Chowdhury',
-            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
-            description: '',
-            youtubeLink: '',
-            facebookLink: ''
-        },
-        {
-            Titlle: 'BYRC',
-            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
-            description: '',
-            siteLink: '',
-            facebookGroupLink: ''
-        }
-        , {
-            Titlle: 'Team Incactus',
-            tikMarks: [' Student Of Alberta', 'Ceo Of Big Business', 'Founder Of Byrac'],
-            description: '',
-            activatyLink: '',
-            facebookLink: ''
-        }
-    ]
+    const [aboutMemoriData, setAboutMemoriData] = useState({})
+    useEffect(() => {
+        fetch('http://localhost:5000/memories')
+            .then(res => res.json())
+            .then(data => setAboutMemoriData(data))
+    }, [])
+    console.log(aboutMemoriData);
     const memories = [
         { id: 1, imgUlr: '', text: '' },
         { id: 2, imgUlr: '', text: '' },
@@ -33,11 +17,6 @@ const About = () => {
         { id: 4, imgUlr: '', text: '' },
         { id: 5, imgUlr: '', text: '' },
         { id: 6, imgUlr: '', text: '' },
-
-
-
-
-
     ]
     return (
         <div style={{ "backgroundColor": '#dffbf6' }}>
@@ -48,7 +27,7 @@ const About = () => {
                 <p className='fs-5 pb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Adipisci explicabo quo et pariatur  vel dolorum, voluptatum, aliquid voluptatem,<br />  non sit nulla officia nostrum. Nihil similique perferendis praesentium, assumenda laudantium ipsam.</p>
                 <div className="row">
                     {
-                        memories.map(memori => <Memories id={memori.id}></Memories>)
+                        aboutMemoriData.map(memori => <Memories id={memori._id} memori={memori}></Memories>)
                     }
                 </div>
             </div>

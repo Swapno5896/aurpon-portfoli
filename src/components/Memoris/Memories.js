@@ -1,14 +1,15 @@
 import React from 'react';
 import './Memories.css'
-const Memories = () => {
+const Memories = (props) => {
+    const { memories_title, img_ulr } = props.memori
     return (
         <section className="photo_album col-md-4 memori-container mb-5" >
             <div className='photo_frame'>
                 <div className="photo">
-                    <img className='memori-img rounded-5' src={require('../../images/dada-1.jpg')} alt="" />
+                    <img className='memori-img rounded-5' src={img_ulr} alt="" />
                 </div>
                 <div className="photo_detail text-container">
-                    <p className='text-content'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et recusandae pariatur animi ullam quas neque omnis eos necessitatibus vero quaerat odit deserunt enim sit ipsam, provident quidem facilis voluptates!</p>
+                    <p className='text-content'> {memories_title}</p>
                 </div>
             </div>
         </section>
