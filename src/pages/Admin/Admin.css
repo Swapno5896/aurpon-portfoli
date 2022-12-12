@@ -1,0 +1,12 @@
+.admin_side_navbar {}
+
+.admin_nav_item {
+    color: black;
+    font-size: 27px;
+    line-height: 2;
+    background-color: aquamarine;
+    padding: 10px 12px;
+    border-radius: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
